@@ -1,0 +1,1138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@900&family=Inter:wght@200&family=Merriweather:ital,wght@1,300&family=Noto+Serif:ital@1&family=Oswald&family=PT+Serif&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.conteinar{
+    width: 100%;
+    height: 800vh;
+    list-style: 100;
+  
+    
+}
+
+
+header{
+    width: 100%;
+    /* height: 10REM; */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;  
+    bottom: 580px;
+    z-index: 10;
+}
+
+.TOP{
+    display: flex;
+    align-items: center;
+}
+
+
+.top p{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    padding-top: 20PX;
+    text-shadow: 1px 1px 1px grey;
+
+}
+
+.top p::first-letter{
+    color: rgb(241, 23, 7);
+    font-size: 28px;
+}
+
+.nav{
+    margin-top: 15px;
+    margin-left: 100px;
+   
+}
+
+.Wow a:hover{
+    color: blue;
+}
+
+
+
+
+.btn-outline-primary{
+    width: 8rem;
+    height: 2.5rem;
+   
+   
+}
+
+.Blog{
+    margin-left: 200px;
+}
+
+.v a{
+     color: white;
+    text-decoration:none;
+}
+
+button a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.Blog li{
+    float: left;
+    list-style: none;
+    padding: 15px;
+   margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Blog button{
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 10px;
+    background-color: rgb(8, 101, 194);
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+
+.Blog li:hover{
+    transform: translatey(10px);
+    transition: 5s;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+
+/* ===============header end ================================================================================ */
+
+
+/* ================ .section-1 start===========================================================================*/
+
+
+
+
+
+
+.section-1{
+    width: 100%;
+    height: 11%;
+    display: flex;
+   background-image: url("Images/ZM1018641.jpg"); 
+   background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: space-between;
+   
+}
+    
+
+.Advance{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.Advance h3{
+    margin-top: 130px;
+    margin-left: 70px;
+    color: rgb(209, 118, 6);
+    text-shadow: 3px 3px 3px grey;
+}
+
+
+.Advance h1{
+    font-size: 50px;
+    margin-left: 70px;
+    color: white;
+    margin-top: 5px;
+    text-shadow: 3px 3px 3px grey;
+}
+
+
+.Advance p{
+    margin-left: 70px;
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+    text-shadow: 3px 3px 3px grey;
+}
+
+
+.bb{
+    border: none;
+}
+
+.Courses{
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    margin-left: 70px;
+}
+
+.Courses a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Courses i{
+    font-size: 20px;
+}
+
+
+.Courses:hover{
+    background-color: rgb(12, 112, 212);
+    cursor: pointer;
+    color: wheat;
+}
+
+.Courses a:hover{
+    color: white;
+}
+
+
+.Wow{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    margin-left: 230px;
+    position: relative;
+    bottom: 35px;
+    background-color: rgb(9, 100, 190);
+}
+
+
+
+.Wow a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.Wow i{
+    color: white;
+}
+
+
+
+.Wow:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+.tech{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.tech img{
+    width: 15vw;
+    height: 40vh;
+    margin-top: 50px;
+}
+
+.Industry{
+   padding: 30px;
+   padding-top: 100px;
+}
+
+img{
+   padding-top: 50px;
+   margin-right: 40px;
+} 
+
+
+
+
+.btn{
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 60px;
+    background-color: blue;
+}
+
+/* ===================== section-1 end ========================================================================*/
+
+
+
+/*====================== .section-2 start =====================================================================*/
+
+
+.section-2{
+    width: 100%;
+    height: 20%;
+    
+}
+
+.section-2 h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Best{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+}
+
+
+.Best img{
+    width: 13vw;
+    height: 15vh;
+
+}
+
+
+.heading{
+    margin-top: 100px;
+}
+
+
+
+.heading h2{
+    margin-left: 100px;
+}
+
+
+.heading h5{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+
+.conteinar-1{
+ margin-left: 150px;
+  margin-top: 30px;
+}
+
+
+
+.card img{
+    margin-left: 8px;
+    width: 15rem;
+    position: relative;
+    bottom: 45px;
+}
+
+
+h4{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.conteinar-2{
+    margin-left: 150px;
+    margin-top: 45px;
+}
+
+
+.Brochure{
+    border: none;
+    padding: 5px;
+    background-color: rgb(11, 96, 180);
+    color: white;
+}
+
+/* ==========================.section-2 end ========================================================= */
+
+
+
+
+/* ==========================.section-3 start ========================================================= */
+
+
+.section-3{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+.icon h1{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.icon p{
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.their{
+    display: flex;
+    
+   
+}
+
+
+
+.Hike{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    background-color: rgb(63, 61, 61);
+    box-shadow: 2px 2px 2px rgb(44, 42, 42);
+}
+
+
+.Dedicated{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    background-color: rgb(63, 61, 61);
+    box-shadow: 2px 2px 2px rgb(44, 42, 42);
+}
+
+
+.Live-online{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    background-color: rgb(63, 61, 61);
+    box-shadow: 2px 2px 2px rgb(44, 42, 42);
+}
+
+
+span{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.their i{
+    margin-left: 10px;
+    padding-top: 40px;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid black;
+   background-color: white;
+   width: 2rem;
+   height: 2rem;
+   font-size: 20px;
+   box-shadow: 1px 1px 1px rgb(248, 245, 245);
+}
+
+
+.job{
+    display: flex;
+   
+}
+
+
+.job img{
+    margin-left: 800px;
+    width: 30rem;
+    position: relative;
+    bottom: 400px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* ======================================section-3 end ================================================================================ */
+
+
+/* ==========================================section-4 start================================================================= */
+
+
+
+
+
+.section-4{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(175, 175, 182);
+}
+
+.section-4 h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-itam{
+    margin-left: 230px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(7, 7, 7);
+}
+
+
+.card-itam img{
+    margin-left: 8px;
+    
+}
+
+
+#title{
+    /* margin-top: 30px; */
+    margin-left: 30px;
+   
+}
+
+/* =======================================section-4 end====================================================== */
+
+
+
+.section-5{
+    width: 80%;
+    height: 50%;
+    display: flex;
+   margin-left: 130px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px  3px gainsboro;
+}
+
+
+.Specialization{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Specialization h1{
+    color: dodgerblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.HEALTHCARE{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 25px;
+}
+
+
+
+.BFSI{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+}
+
+
+.THCARE{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+}
+
+
+.MARKETING{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+}
+
+
+
+.SUPPLYCHAIN{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+
+
+.section-5 img{
+    width: 45vw;
+    height: 45vh;
+}
+
+
+.HEALTHCARE i{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.SUPPLYCHAIN i{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.section-5 a{
+    margin-left: 200px;
+     position: relative;
+     bottom: 50px;
+     width: 15rem;
+}
+
+/* =========================.section-5 end ================================================================== */
+
+
+.section-6{
+    width: 100%;
+    height: 70%;
+    margin-top: 30px;
+    background-color: rgb(231, 231, 240);
+   
+    
+}
+
+.section-6 p{
+    position: relative;
+    left: 1000px;
+    top: 150px;
+    font-size: 2rem;
+}
+
+.fault{
+      position: relative;
+      left: 900px;
+      top: 200px;
+    background-image: url("Images/maxresdefault.jpg");
+    width: 30vw;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid green;
+}
+
+
+
+.Services{
+    display: flex;
+    flex-direction: column;
+      gap: 30px;
+      position: relative;
+      bottom: 120px;
+}
+
+
+.Services h2{
+    margin-left: 180px;
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+
+
+.Doubt{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 180px;
+    background-color: darkslategray;
+    color: white;
+}
+
+
+.Interview{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 180px;
+    background-color: darkslategray;
+    color: white;
+}
+
+.Resume{
+    width: 11rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 180px;
+    background-color: darkslategray;
+    color: white;
+}
+
+.Flexible{
+    width: 10.2rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 180px;
+    background-color: darkslategray;
+    color: white;
+}
+
+
+span{
+    margin-left: 30px;
+    margin-top: 65px;
+}
+
+
+span i{
+    color: forestgreen;
+}
+
+
+.Services img{
+    width: 10rem;
+    height: 15rem;
+    margin-left: 400px;
+    position: relative;
+    bottom: 306px;
+  
+}
+
+/* ==============================section-6 end =============================================================== */
+
+
+.Alumni{
+    width: 100%;
+    height: 500vh;
+    margin-top: 20px;
+}
+
+
+.from{
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.Alumni h1{
+    font-size: 3.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.our{
+    width: 20%;
+    height: 30vh;
+    background-color: white;
+    position: relative;
+    bottom: 290px;
+}
+
+
+.Shubham{
+    width: 15vw;
+    height: 13vh;
+    border: 1px solid black;
+    margin-left: 170px;
+    margin-top: 40px;
+    background-color: rgb(136, 189, 190);
+}
+
+
+.Mishra{
+    width: 15vw;
+    height: 13vh;
+    border: 1px solid black;
+    margin-left: 170px;
+    margin-top: 28px;
+    background-color: rgb(252, 186, 250);
+}
+
+
+
+.Arvind{
+    width: 15vw;
+    height: 13vh;
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-top: 40px;
+   position: relative;
+   bottom: 232px;
+   background-color: darkseagreen;
+}
+
+
+
+.Jaya{
+    width: 15vw;
+    height: 13vh;
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-top: 28px;
+   position: relative;
+   bottom: 233px;
+   background-color: rgb(165, 222, 241);
+}
+
+
+.Alumni img{
+    margin-left: 700px;
+    margin-top: 30px;
+    width: 30rem;
+    
+}
+
+.our p{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.fa-star{
+    color: gold;
+}
+/* ================================================.Alumni end ================================================= */
+
+
+.section-7{
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+.col{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Technology{
+    width: 15rem;
+    height: 23rem;
+    border: 1px solid black;
+    margin-left: 80px;
+    box-shadow: 3px 3px 3px rgb(99, 97, 97);
+}
+
+
+
+.Technology img{
+    width: 15rem;
+    height: 5vh;
+}
+
+
+
+.Technology h3{
+    font-size: 20px;
+}
+
+
+/* ========================================= .section-7======================================================*/
+
+
+.section-8{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(64, 155, 245);
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+.Industry-Leading{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin-left: 60px;
+    
+}
+
+
+.Industry-Leading h5{
+    margin-top: 60px;
+    font-size: 25px;
+    color: rgb(247, 110, 61);
+}
+
+
+.Industry-Leading p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.Apply-for-Career{
+    width: 30rem;
+    height: 22rem;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+
+.Apply-for-Career h5{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Number{
+    margin-top: 20px;
+}
+
+
+.form-floating{
+    margin-top: 20px;
+    height: 1rem;
+    width: 15rem;
+}
+
+
+.Works{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 50px;
+    margin-left: 130px;
+    border: none;
+    background-color: #1c1c50;
+    color: white;
+}
+
+
+.Works:hover{
+    background-color: gold;
+    color: white;
+}
+
+/* ==============================================.section-8 end ================================================= */
+
+
+.section-9{
+    width: 100%;
+    height: 30%;
+   
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.Talk{
+    width: 5rem;
+    height: 60vh;
+    background-color: darkorange;
+}
+
+
+.directly{
+    width: 60rem;
+    height: 60vh;
+    border: 1px solid blue;
+    margin-left: 300px;
+}
+
+
+.counsellor{
+    width: 10rem;
+    height: 60vh;
+    background-color: dodgerblue;
+    margin-left: 800px;
+}
+
+/* ========================================== .section-9 end ==================================================*/
+
+
+footer{
+    width: 100%;
+    height: 300vh;
+    background-color: black;
+   
+}
+
+
+.Reserved{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    width: 30rem;
+    height: 25rem;
+}
+
+
+.Reserved h6{
+    margin-left: 70px;
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+}
+
+
+.Reserved p{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+.Hyderabad{
+    display: flex;
+    flex-direction: column;
+    margin-left: 470px;
+    width: 30rem;
+    height: 25rem;
+    position: relative;
+    bottom: 400px;
+}
+
+.Hyderabad h6{
+    margin-left: 70px;
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+}
+
+
+.Hyderabad p{
+    color: white;
+    margin-top: 10px;
+}
+
+.Rights{
+    display: flex;
+    flex-direction: column;
+    margin-left: 870px;
+    width: 30rem;
+    height: 25rem;
+    position: relative;
+    bottom: 770px;
+}
+
+
+.Rights h6{
+    color: white;
+    font-size: 23px;
+}
+
+
+.Rights p{
+    color: white;
+}
+
+.Get-Our-Apps{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    width: 30rem;
+    height: 25rem;
+    position: relative;
+    bottom: 1170px;
+}
+
+.Get-Our-Apps h6{
+    color: white;
+    font-size: 23px;
+}
+
+.Get-Our-Apps p{
+    color: white;
+}
+
+
+.Centrum{
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid white;
+    position: relative;
+    bottom: 1450px;
+
+}
+
+
+.Centrum h5{
+    color: white;
+    position: relative;
+    top: 200px;
+}
+
+
+.Copyright{
+    position: relative;
+    bottom: 1350px;
+    margin-left: 60px;
+}
+
+.Copyright h6{
+    color: white;
+}
+
+.Copyright p{
+    color: white;
+}
+
+
+.Learnvista{
+    position: relative;
+    bottom: 1800px;
+    margin-left: 470px;
+}
+
+
+.Learnvista h6{
+       color: white;
+}
+
+.Learnvista p{
+    color: white;
+}
+
+.Master{
+    position: relative;
+    bottom: 1550px;
+    margin-left: 870px;
+}
+
+
+.Master h6{
+     color: white;
+}
+
+.Master p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

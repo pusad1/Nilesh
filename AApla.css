@@ -1,0 +1,704 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@900&family=Inter:wght@200&family=Merriweather:ital,wght@1,300&family=Noto+Serif:ital@1&family=Oswald&family=PT+Serif&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.conteinar{
+    width: 100%;
+    height: 750vh;
+    list-style: 100;
+  
+    
+}
+
+
+header{
+    width: 100%;
+    /* height: 10REM; */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;  
+    bottom: 580px;
+    z-index: 10;
+}
+
+.TOP{
+    display: flex;
+    align-items: center;
+}
+
+
+.top p{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    padding-top: 20PX;
+    text-shadow: 1px 1px 1px grey;
+
+}
+
+.top p::first-letter{
+    color: rgb(241, 23, 7);
+    font-size: 28px;
+}
+
+.nav{
+    margin-top: 15px;
+    margin-left: 100px;
+   
+}
+
+.Wow a:hover{
+    color: blue;
+}
+
+
+
+
+.btn-outline-primary{
+    width: 8rem;
+    height: 2.5rem;
+   
+   
+}
+
+.Blog{
+    margin-left: 200px;
+}
+
+.v a{
+     color: white;
+    text-decoration:none;
+}
+
+button a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.Blog li{
+    float: left;
+    list-style: none;
+    padding: 15px;
+   margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Blog button{
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 10px;
+    background-color: rgb(8, 101, 194);
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+
+.Blog li:hover{
+    transform: translatey(10px);
+    transition: 5s;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+/* ====================header end ============================================================================== */
+
+
+.section-1{ 
+    width: 100%;
+    height: 8%;
+   background-color: gold;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+ } 
+
+
+
+ .section-1 h1{
+   color: #1c1c50;
+    /* padding-top: 100px; */
+    font-size: 5.5rem;
+    margin-left:100px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 2px white;
+    
+ }
+
+
+ .section-1 img{
+    width: 25rem;
+    height: 20rem;
+    margin-right: 100px;
+ }
+
+/* =================================.section-1 end ========================================================= */
+
+
+
+
+.section-2{
+    width: 100%;
+    height: 8%;
+    
+    margin-top: 25px;
+}
+
+
+
+.section-2 h2{
+    margin-left: 100px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.section-2 input{
+    width: 23rem;
+    height: 2.2rem;
+    margin-left:80px ;
+    margin-top: 10px;
+}
+
+
+ i{
+    transform: translate(-30px);
+}
+
+
+.card-body{
+    background-image: url("Images/images (8).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card{
+    width: 30rem;
+    height: 18rem;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+
+.card-text{
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+small{
+    color: white;
+}
+
+small:hover{
+    color: gold;
+}
+
+.card-text:hover{
+    color: gold;
+}
+
+
+.Mohanty{
+    display: flex;
+}
+
+b{
+    color: white;
+    margin-left: 50px;
+}
+
+/* ============= .section-2 end =======================================================================*/
+
+
+.section-3{
+    width: 100%;
+    height: 8%;
+    margin-top: 130px;
+    
+}
+
+.section-3 h2{
+    margin-left: 100px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo-img{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+}
+
+.photo-img img{
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    width: 16rem;
+}
+
+
+
+
+
+.Science{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+.Data{
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    margin-left: 800px;
+    position: relative;
+    bottom: 500px;
+}
+
+
+.photo-img:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+
+.Science:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Data:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+/* ============================================.section-3 end============================================================= */
+
+
+
+.section-4{
+    width: 100%;
+    height: 5%;
+    position: relative;
+    bottom: 300px;
+   
+}
+
+h2{
+    margin-left: 100px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Stack{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+
+}
+
+
+.Topics{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.Hot{
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    margin-left: 800px;
+    position: relative;
+    bottom: 500px;
+}
+
+
+.Stack:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Topics:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Hot:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+
+.Stack img{
+    width: 17rem;
+}
+
+
+.Topics img{
+    width: 17rem;
+}
+
+/* =================================== section-4 end ============================================================*/
+
+
+.section-5{
+    width: 100%;
+    height: 8%;
+    position: relative;
+    bottom: 300px;
+}
+
+
+.Intelligence{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.Learning{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.Intelligence img{
+    width: 17rem;
+}
+
+.Learning img{
+    width: 17rem;
+}
+
+
+.Intelligence:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Learning:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+/* ======================================= .section-5 end ===================================================*/
+
+.section-6{
+    margin-top: 100px;
+    width: 100%;
+    height: 8%;
+}
+
+
+.Python{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.Kolkata{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+
+.Chennai{
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    margin-left: 800px;
+    position: relative;
+    bottom: 500px;
+}
+
+
+.Python img{
+    width: 17rem;
+}
+
+
+.Kolkata img{
+    width: 17rem;
+}
+
+.Chennai img{
+    width: 19rem;
+    height: 10rem;
+}
+
+.Python:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Kolkata:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Chennai:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+/* ==========================================section-6 end =============================================== */
+
+.section-7{
+    width: 100%;
+    height: 8%;
+    position: relative;
+    bottom: 340px;
+}
+
+
+.Pune{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.Mumbai{
+    width: 40rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.Bangalore{
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    margin-left: 800px;
+    position: relative;
+    bottom: 500px;
+}
+
+.Pune img{
+    width: 17rem;
+}
+
+
+.Mumbai img{
+    width: 17rem;
+}
+
+.Bangalore img{
+    width: 17rem;
+}
+
+
+.Pune :hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Mumbai:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+.Bangalore:hover{
+    box-shadow: 2px 2px 2px 2px rgb(94, 158, 221);
+}
+
+
+/* =============================================== section-7 ================================================= */
+
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    top: 1300px;
+}
+
+
+footer h1{
+    font-size: 2rem;
+    margin-left:80px;
+    font-family: 'Poppins', sans-serif;
+   padding-top: 60px;
+   color: white;
+}
+
+footer p{
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.Skills{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fa-square-twitter{
+    color: white;
+}
+
+
+/* ========================================================================================================== */
+
+
+
+
+.Dubai{
+    display: flex;
+    margin-left: 400px;
+    flex-direction: column;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.Dubai h3{
+    color: white;
+    margin-left: 50px;
+}
+
+.Dubai P{
+    font-size: 15px;
+}
+    
+/* ============= Dubai end =====================================================================================*/
+
+
+.Terms{
+    display: flex;
+    margin-left: 750px;
+    flex-direction: column;
+    position: relative;
+    bottom: 360px;
+}
+
+.Terms h3{
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+.Now{
+    display: flex;
+    margin-left: 1100px;
+    flex-direction: column;
+    position: relative;
+    bottom: 550px;
+}
+
+
+.Now h3{
+    color: white;
+}
+
+
+
+.Experience{
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 40vh;
+}
+
+/* ====================================== Experience end ==================================================== */
+
+
+.Find{
+
+}
+
+.Find h4{
+    color: white;
+}
+
+
+
+
+.Cross h6{
+    color: white;
+    font-size: 2rem;
+    margin-left:80px;
+    font-family: 'Poppins', sans-serif;
+   padding-top: 20px;
+}
+
+
+.Floor{
+    margin-left: 380px;
+    position: relative;
+    bottom: 140px;
+}
+
+
+.Floor h6{
+    color: white;
+    margin-left: 80px;
+}
+
+
+.Analytics{
+    margin-left: 880px;
+    position: relative;
+    bottom: 380px;
+}
+
+
+
+.Analytics h6{
+   color: white;
+}
+
+
+.Analytics p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
